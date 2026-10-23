@@ -14,7 +14,7 @@ This guide walks you through deploying AgriNexa with **Render** (Backend API) an
    - **Name:** `agrinexa-backend`
    - **Root Directory:** `backend`
    - **Environment:** `Node`
-   - **Build Command:** `npm install && npm run build`
+   - **Build Command:** `npm install --include=dev && npm run build`
    - **Start Command:** `npm start`
    - **Instance Type:** `Free`
 5. Under **Environment Variables**, add:
